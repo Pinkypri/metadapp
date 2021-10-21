@@ -1,0 +1,65 @@
+.grid-container{
+  background: rgba(175, 164, 164, 0.87) !important;
+box-shadow: 0 8px 32px 0 rgba(118, 118, 119, 0.171) !important;
+backdrop-filter: blur( 50px ) !important; 
+-webkit-backdrop-filter: blur( 50px ) !important;
+border-radius: 10px !important;
+  padding: 20px !important;
+  border-radius: 20px !important;
+  border: none !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+}
+
+
+.btn--btn-disable{
+  background: grey !important;
+  cursor:not-allowed !important;
+}
+
+.btn--btn-enable{
+  background: lightblue !important;
+  cursor:pointer !important;
+}
+
+.btn--btn-spacing{
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.text-color-white {
+  background: none !important ;
+color: white !important;
+
+}
+
+.grid-spacing{
+  padding: 30px 20px !important;
+}
+
+.grid-font-black{
+  background: none !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  padding-top: 20px;
+
+}
+
+.grid-radio-btn--spacing{
+  padding: 30px 0 !important;
+}
+
+
+.logo--brand{
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+  color: red;
+  margin: 10px;
+}
+
+.desc--spacing{
+  margin-top: 50px;
+ 
+}
